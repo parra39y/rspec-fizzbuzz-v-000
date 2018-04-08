@@ -5,10 +5,10 @@ end
   if number%5==0 #if the number int is divisible by 5
   puts "Buzz" #Go Buzz
 end
-  elsif number%3==0 and number%5==0 #if the number int is divisible by 3 and 5
+  if number%3==0 and number%5==0 #if the number int is divisible by 3 and 5
   puts "FizzBuzz" #Go FizzBuzz
 end
-elsif number%3!=0 and number%5!=0
+if number%3!=0 and number%5!=0
   puts "nil"
 end
 end
