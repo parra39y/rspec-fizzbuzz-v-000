@@ -9,7 +9,7 @@ end
   return "FizzBuzz" #Go FizzBuzz
 end
 if (number%3!=0 && number%5!=0)
-  return "nil"
+  return nil
 end
 end
 fizzbuzz(3) # => You should see a return of "Fizz"
