@@ -12,7 +12,6 @@ if number%3!=0 && number%5!=0
   return "nil"
 end
 end
-
 fizzbuzz(3) # => You should see a return of "Fizz"
 fizzbuzz(5) # => You should see a return of nil
 fizzbuzz(4)  # => You should get an ArgumentError
