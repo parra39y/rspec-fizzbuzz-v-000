@@ -9,7 +9,7 @@ end
   puts "FizzBuzz" #Go FizzBuzz
 end
 if number%3!=0 and number%5!=0
-  puts nil
+  puts "nil"
 end
 
 fizzbuzz(3) # => You should see a return of "Fizz"
