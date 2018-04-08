@@ -2,7 +2,7 @@ def fizzbuzz (number)
   if number%3==0 #if the number int is divisible by 3
     puts "Fizz" #Go fizz
 end
-  elsif number%5==0 #if the number int is divisible by 5
+  if number%5==0 #if the number int is divisible by 5
   puts "Buzz" #Go Buzz
 end
   elsif number%3==0 and number%5==0 #if the number int is divisible by 3 and 5
